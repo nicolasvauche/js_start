@@ -1,5 +1,17 @@
-{
-    "name": "Nicolas",
-    "email": "nicolas.vauche@aliptic.net",
-    "password": "nicolas"
-}
+[
+    {
+        "name": "Nicolas",
+        "email": "nicolas.vauche@aliptic.net",
+        "password": "nicolas"
+    },
+    {
+        "name": "Bob",
+        "email": "bob@aliptic.net",
+        "password": "bob"
+    },
+    {
+        "name": "Jeanne",
+        "email": "jeanne@aliptic.net",
+        "password": "jeanne"
+    }
+]
