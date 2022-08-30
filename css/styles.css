@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+
+header {
+  color: purple;
+}
+
+button {
+  padding: 0.5rem;
+  color: blue;
+  border: 3px solid purple;
+  background-color: #fff;
+}
