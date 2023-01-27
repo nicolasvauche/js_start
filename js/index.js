@@ -4,7 +4,7 @@ fetch('data/users.json')
   .then(response => response.json())
   // Traiter les données reçues
   .then(users => {
-    const userInfos = document.getElementById('user')
+    const userInfos = document.getElementById('users')
 
     // Boucler sur le tableau des utilisateurs
     users.forEach(user => {
@@ -15,7 +15,8 @@ fetch('data/users.json')
       for (const key in user) {
         // Créer un paragraphe pour chaque propriété de l'utilisateur
         const userInfoContainer = document.createElement('p')
-        userInfoContainer.innerHTML = '<strong>' + key.toUpperCase() + ' :</strong> ' + user[key]
+        userInfoContainer.innerHTML =
+          '<strong>' + key.toUpperCase() + ':</strong> ' + user[key]
         // Ajouter la proopriété au conteneur
         userContainer.appendChild(userInfoContainer)
       }
@@ -25,6 +26,6 @@ fetch('data/users.json')
     })
   })
   // Agir en cas d'erreur
-  .catch(e => {
-    console.log(e.message)
+  .catch(error => {
+    console.log(error.message)
   })

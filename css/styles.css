@@ -1,9 +1,19 @@
 body {
+  margin: 2rem;
   text-align: center;
 }
 
 header {
-  color: purple;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: rgb(128, 60, 128);
+  border-bottom: 3px solid rgb(128, 60, 128);
+  border-radius: 0.5rem;
+}
+
+h1{
+  margin: 0;
 }
 
 button {
@@ -13,8 +23,15 @@ button {
   background-color: #fff;
 }
 
+@media screen and (min-width: 768px) {
+  #users {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
 .user {
-  margin: 0 0 1.5rem;
   padding: 0.5rem;
   border: 2px solid purple;
   border-radius: 0.5rem;

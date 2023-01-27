@@ -1,17 +1,22 @@
 [
     {
         "name": "Nicolas",
-        "email": "nicolas.vauche@aliptic.net",
-        "password": "nicolas"
+        "email": "nicolas@test.com",
+        "age": 976
     },
     {
         "name": "Bob",
-        "email": "bob@aliptic.net",
-        "password": "bob"
+        "email": "bob@test.com",
+        "age": 36
     },
     {
         "name": "Jeanne",
-        "email": "jeanne@aliptic.net",
-        "password": "jeanne"
+        "email": "jeanne@test.com",
+        "age": 24
+    },
+    {
+        "name": "Sophie",
+        "email": "sophie@test.com",
+        "age": 50
     }
 ]
