@@ -7,8 +7,12 @@ header {
 }
 
 button {
-  padding: 0.5rem;
-  color: blue;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: purple;
   border: 3px solid purple;
-  background-color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
