@@ -4,7 +4,6 @@ export const ParagraphFactory = (
   hasColorChanging = false
 ) => {
   // Initialisation automatique d'un objet HTML
-
   const para = document.createElement(element)
 
   // Déclaration d'une méthode privée
@@ -14,7 +13,7 @@ export const ParagraphFactory = (
     }, 2000)
   }
 
-  // Méthode
+  // Méthode qui permet de créer 1 élément HTML
   const createElement = () => {
     // Définition du message à afficher initialement
     let myMessage = message
@@ -25,6 +24,7 @@ export const ParagraphFactory = (
     // On change la couleur du texte à la demande
     hasColorChanging && changeTextColor()
 
+    // On renvoie l'élément, qui sera ajouté au DOM par le contrôleur JS
     return para
   }
 
